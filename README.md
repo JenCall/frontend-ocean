@@ -1,6 +1,6 @@
 # Ocean with CSS & JavaScript
 
-Frontend Ocean is a single webpage to practise CSS/Javascript animation. Fuhrther details and instructions shared by "Web Dev Simplified". 
+Frontend Ocean is a single webpage to practise CSS/Javascript animation. Further details and instructions shared by "Web Dev Simplified". 
 
 ### :rocket: Technologies
 
@@ -10,6 +10,6 @@ This project was developed at the [Web Dev Simplified](https://github.com/WebDev
 -  HTML5
 -  CSS
 
-### :web: Video
+### :ocean: Video
 
-Place Video here
+https://user-images.githubusercontent.com/40858878/141473235-82832f6b-c3de-452a-96e7-5c5fe5e43ee3.mp4
