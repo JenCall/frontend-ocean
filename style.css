@@ -84,11 +84,11 @@ body {
 
 @keyframes bob {
     from {
-        transform: rotate(var(--rotation));
+        transform: rotate(var(--rotation) translateY(1vh));
     }
 
     to {
-        transform: rotate(calc(var(--rotation) +10deg));
+        transform: rotate(calc(var(--rotation) +10deg)) translateY(0);
     }
 }
 
