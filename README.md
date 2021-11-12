@@ -12,4 +12,8 @@ This project was developed at the [Web Dev Simplified](https://github.com/WebDev
 
 ### :ocean: Video
 
-https://user-images.githubusercontent.com/40858878/141473235-82832f6b-c3de-452a-96e7-5c5fe5e43ee3.mp4
+https://user-images.githubusercontent.com/40858878/141474302-671be374-5529-4157-8366-b3183bab4066.mp4
+
+
+
+
