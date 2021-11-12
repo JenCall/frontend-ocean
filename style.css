@@ -1,14 +1,11 @@
 *, *::before, *::after {
     font-family: 'Open Sans', sans-serif;
+    user-select: none;
 }
 
 body {
     margin: 0;
-}
-
-h3 {
-    margin-left: 1.0rem;
-    color: #161E54;
+    background-color: bisque;
 }
 
 .logo {
@@ -19,6 +16,7 @@ h3 {
     height: 5rem;
     border-radius: 100%;
     overflow: hidden;
+    z-index: 100;
 }
 
 .logo::before {
@@ -48,9 +46,26 @@ h3 {
     }
 }
 
+.text {
+    position: absolute;
+    left: 3vmin;
+    bottom:92vh;
+    color: #161E54;
+    z-index: 100;
+    opacity: .8;
+}
+
+.trash-container {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    bottom: 0;
+    left: 0;
+}
+
 :root {
     --v1: #be91c6;
-    --v2: #8a65cc;
+    --v2: #000000;
     --v3: #5e30d9;
     --transparentv3: #5e30d900;
     --v4: #3b1895;
@@ -58,9 +73,7 @@ h3 {
     --s2: #ff846e;
     --cloud: #fea798;
   }
-  *,
-  *:before,
-  *:after {
+  *, *:before, *:after {
     //animation:none!important;
   }
   .landscape:after,
