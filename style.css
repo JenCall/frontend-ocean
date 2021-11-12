@@ -37,6 +37,7 @@ body {
     bottom: 0;
     left: -50%;
     border-radius: 35%;
+    opacity: .7;
     animation: wave 5s ease-in-out alternate infinite;
 }
 
@@ -49,10 +50,22 @@ body {
 .text {
     position: absolute;
     left: 3vmin;
-    bottom:92vh;
+    bottom: 92vh;
     color: #161E54;
     z-index: 100;
     opacity: .8;
+}
+
+.money {
+    position: absolute;
+    bottom: 50vh;
+    left: calc(60% - 10vmin);
+    font-size: 5vmin;
+    color: white;
+    z-index: 100;
+    margin: 0;
+    opacity: .5;
+    text-shadow: 0 0 5px hsl(0, 0%, 0%, .5);
 }
 
 .trash-container {
@@ -66,6 +79,17 @@ body {
 .trash {
     position: absolute;
     opacity: .7;
+    animation: bob 2s ease-in-out infinite alternate;
+}
+
+@keyframes bob {
+    from {
+        transform: rotate(var(--rotation));
+    }
+
+    to {
+        transform: rotate(calc(var(--rotation) +10deg));
+    }
 }
 
 :root {
@@ -293,6 +317,7 @@ body {
     animation: rise 20s infinite;
     box-shadow: 0 0 10px white;
   }
+  
   .reed {
     height: 40vmin;
     width: 0.5vmin;
