@@ -63,6 +63,11 @@ body {
     left: 0;
 }
 
+.trash {
+    position: absolute;
+    opacity: .7;
+}
+
 :root {
     --v1: #be91c6;
     --v2: #000000;
